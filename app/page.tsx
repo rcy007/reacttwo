@@ -1,5 +1,6 @@
 import Gallery from "@/app/Gallery";
 import { Profile } from "@/app/Gallery";
+import Profy from "./passingProps";
 
 const today = new Date();
 const temp = 123;
@@ -23,6 +24,7 @@ export default function Home(){
             backgroundColor: 'white',
             color: 'black'
         }}>Whatever! This is your {temp} damn day: {formatDate(today)}</h1>
+        <Profy person={{name: "Duffer", age: 25}} size={300}/>
         </>
     );
 }

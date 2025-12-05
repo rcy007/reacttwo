@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+// https://i.imgur.com/MK3eW3As.jpg
+
 export function Profile(){
     return (
         <Image src="https://i.imgur.com/MK3eW3As.jpg"
