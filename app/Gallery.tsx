@@ -10,6 +10,7 @@ export function Profile(){
     );
 }
 
+const scientists = [1, 2, 3];
 
 export default function Gallery(){
     return (
@@ -18,6 +19,9 @@ export default function Gallery(){
             <Profile />
             <Profile />
             <Profile />
+            {scientists.map((n) => (
+                <Profile key={n}/>
+            ))}
         </section>
     );
 }
