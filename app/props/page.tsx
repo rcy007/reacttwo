@@ -1,5 +1,5 @@
-import Gallery from "@/app/props/propy";
-import { Profile } from "@/app/props/propy";
+import Gallery from "@/app/props/_components/propy";
+import { Profile } from "@/app/props/_components/propy";
 
 export default function app(){
     return (
