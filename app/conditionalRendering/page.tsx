@@ -66,6 +66,7 @@ export default function PackingList() {
           name="Photo of Tam" 
         />
       </ul>
+      {1 < 2 && <div>Lala</div>}
     </section>
   );
 }
