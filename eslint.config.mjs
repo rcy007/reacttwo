@@ -1,6 +1,7 @@
 import { defineConfig, globalIgnores } from "eslint/config";
 import nextVitals from "eslint-config-next/core-web-vitals";
 import nextTs from "eslint-config-next/typescript";
+import reactPlugin from "@eslint-react/eslint-plugin";
 
 const eslintConfig = defineConfig([
   ...nextVitals,
@@ -14,8 +15,12 @@ const eslintConfig = defineConfig([
     "next-env.d.ts",
   ]),
   {
+    plugins: {
+      "@eslint-react": reactPlugin,
+    },
     rules: {
-      "@next/next/no-img-element": "off"
+      "@next/next/no-img-element": "off",
+      "@eslint-react/no-duplicate-key": "error", // Catches duplicate keys!
     }
   }
 ]);

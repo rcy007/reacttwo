@@ -1,4 +1,4 @@
-import { Calendar, Home, Inbox, Search, Settings, Dice6, Dice1, Dice2, Dice3 } from "lucide-react"
+import { Home, Settings, Dice1, Dice2, Dice3 } from "lucide-react"
 import Link from "next/link"
 
 import {

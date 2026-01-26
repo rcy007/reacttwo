@@ -57,6 +57,7 @@
     "zod": "^4.1.13"
   },
   "devDependencies": {
+    "@eslint-react/eslint-plugin": "^2.7.4",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",

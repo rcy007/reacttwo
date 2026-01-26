@@ -17,7 +17,7 @@ const scientists = [1, 2, 3];
 export default function Gallery(){
     return (
         <section>
-            <h1>Amazin scientists</h1>
+            <h1>Amazing scientists</h1>
             <Profile />
             <Profile />
             <Profile />
