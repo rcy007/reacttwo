@@ -1,11 +1,11 @@
 function Item({ name, isPacked }) {
 // Way 1
-    //   if (isPacked) {
-//     return null;
-//   }
-//   return <li className="item">
-//     {isPacked ? name + ' ✅' : name}
-//     </li>;
+  //     if (isPacked) {
+  //   return null;
+  // }
+  // return <li className="item">
+  //   {isPacked ? name + ' ✅' : name}
+  //   </li>;
 // Way 2
     // return (
     //     <li className="item">
@@ -66,7 +66,7 @@ export default function PackingList() {
           name="Photo of Tam" 
         />
       </ul>
-      {1 < 2 && <div>Lala</div>}
+      {1 < 2 && 3<4 && <div>Lala</div>}
     </section>
   );
 }

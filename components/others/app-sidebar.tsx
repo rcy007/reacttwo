@@ -1,4 +1,4 @@
-import { Home, Settings, Dice1, Dice2, Dice3 } from "lucide-react"
+import { Home, Dice1, Dice2, Dice3, Dice4 } from "lucide-react"
 import Link from "next/link"
 
 import {
@@ -35,9 +35,9 @@ const items = [
     icon: Dice3,
   },
   {
-    title: "Settings",
-    url: "#",
-    icon: Settings,
+    title: "Event Handler",
+    url: "/learningEventhandlers",
+    icon: Dice4,
   },
 ]
 
